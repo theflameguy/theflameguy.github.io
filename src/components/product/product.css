@@ -21,16 +21,16 @@
   height: 6px;
   border-radius: 50%;
   margin: 3px;
-  background-color: white;
+  background-color: grey;
 }
 
 .p-img {
   width: 100%;
-  transition: all 10s ease;
+  transition: all 1s ease;
 }
 
 .p:hover .p-img {
-  transform: translateY(-100%);
+  transform: scale(1.25);
 }
 
 @media screen and (max-width: 480px) {
