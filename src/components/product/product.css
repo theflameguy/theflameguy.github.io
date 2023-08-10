@@ -26,11 +26,12 @@
 
 .p-img {
   width: 100%;
+  transform: scale(1.525);
   transition: all 1s ease;
 }
 
 .p:hover .p-img {
-  transform: scale(1.25);
+  transform: scale(1.7);
 }
 
 @media screen and (max-width: 480px) {
