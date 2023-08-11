@@ -13,22 +13,7 @@ export const products = [
   },
   {
     id: 3,
-    img: "",
+    img: "https://synergy-dg.com/wp-content/uploads/2016/12/tfg.jpg",
     link: "https://github.com/theflameguy",
-  },
-  {
-    id: 4,
-    img: "",
-    link: "https://github.com/theflameguy",
-  },
-  {
-    id: 5,
-    img: "",
-    link: "https://github.com/theflameguy",
-  },
-  {
-    id: 6,
-    img: "",
-    link: "https://github.com/theflameguy",
-  },
+  }
 ];

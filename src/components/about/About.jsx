@@ -17,14 +17,16 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+        I am a skilled individual with a strong foundation in C++, Data Structures, 
+        and Algorithms, complemented by proficiency in web technologies like HTML, CSS, and JavaScript. 
+        I possess intermediate knowledge in Python, Github, React, Node, SQL, and more, 
+        enabling effective collaboration and web development. I'm also exploring PHP,
+         Machine Learning, Artificial Intelligence, Cloud, and Java, reflecting my commitment to continuous learning 
+         and embracing new technologies. My adaptable skill set makes me an asset for diverse projects and collaborations.
+         
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          {/* logos for skill here */}
         </p>
         
       </div>
