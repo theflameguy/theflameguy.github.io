@@ -221,15 +221,25 @@
 
 })();
 
-console.log(`%c
-   *****     *****
- *       * *       *
-*         *         *
-*    Let's build    *
- *    something   *
-   *   amazing!  *
-     *         *
-       *     *
-         * *
-          *
-`, "color: #FF007F; font-size: 16px; font-weight: bold; text-shadow: 1px 1px #333;");
+let progress = 0;
+const loadingBar = setInterval(() => {
+  if (progress > 100) {
+    console.log(`%c
+    *****     *****     
+  *       * *       *   
+ *         *         *  
+ *    Let's build    * 
+  *    something   *   
+    *   amazing!  *     
+      *         *       
+        *     *         
+          * *            
+           *            
+  `,  "color: #fff; font-size: 16px; font-weight: bold; text-shadow: 0px 0px 1px #00FF00, 0px 0px 3px #00FF00, 0px 0px 5px #00FF00, 0px 0px 7px #00FF00;  border-radius: 8px;");
+    clearInterval(loadingBar);
+  } else {
+    console.clear();
+    console.log(`%c Loading... [${'█'.repeat(progress / 5)}${' '.repeat(20 - progress / 5)}] ${progress}% `, 'color: #FFD700; font-weight: bold; text-shadow:  0px 0px 3px #FFD700, 0px 0px 5px #FFD700; font-family: monospace;');
+    progress += 5;
+  }
+}, 200);
