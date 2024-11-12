@@ -49,6 +49,24 @@
   }
 
   /**
+   * PII Data handle
+   */
+
+  const PIIphone = document.querySelectorAll('.PIIphone');
+  
+  PIIphone.forEach((element, index) => {
+    element.innerHTML = `<span>+9</span><span>1 </span><span>82</span><span>79</span><span>4 7</span><span>136</span><span>3</span>`;
+  });
+  const PIIemail = document.querySelectorAll('.PIIemail');
+
+  PIIemail.forEach((element, index) => {
+    element.innerHTML = `<span>ab</span><span>hi</span><span>me</span><span>51</span><span>4@</span><span>gma</span><span>il.c</span><span>om</span>`;
+  });
+
+
+
+
+  /**
    * Scroll top button
    */
   let scrollTop = document.querySelector('.scroll-top');
